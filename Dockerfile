@@ -1,4 +1,4 @@
-FROM node:8.12.0
+FROM node:10
 
 RUN apt-get update && apt-get -y install python3-pip
 RUN pip3 install awscli
